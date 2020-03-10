@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Functions</title>
+</head>
+<body>
+    <script>
+        // funcao normal
+        // var resposta = function(sentimento) {
+        //     return "Eu estou "+sentimento+"!"
+        // }
+
+        // console.log(resposta("feliz"))
+//...................................................................
+        //arrow function (escrever menos)
+        var resposta = sentimento => "Eu estou "+sentimento+"!"
+        // resposta = variavel que receberá o resultado da funcao
+        // sentimento = argumento da funcao
+        // => function
+        // Eu estou..... = o que a funcao ira fazer
+        console.log(resposta("com fome"))
+    </script>
+</body>
+</html>
